@@ -1,0 +1,20 @@
+# Claude Code — 개인 설정은 올리지 않는다
+.claude/settings.local.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Xcode (CODE/에서 개발 시작하면)
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
+.swiftpm/
+
+# 비밀
+.env
+*.p8
+*.p12
+*.mobileprovision
